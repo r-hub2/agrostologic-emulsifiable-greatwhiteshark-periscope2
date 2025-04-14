@@ -1,0 +1,195 @@
+/************************/
+/* periscope2 basic CSS */
+/************************/
+aside#sidebarId, aside#controlbarId {
+    position: absolute;
+    z-index: 0!important;
+}
+
+/* Application Header (busy indicator - app title - app menu) */
+
+/* header flex container properties*/
+/* To customize the container or any of its three elements refer to
+*  https://css-tricks.com/snippets/css/a-guide-to-flexbox/ for more
+*  information*/
+.app_header_container {
+    display: inline-flex;
+    width: 100%;
+}
+
+/* app info modal*/
+a#app_info {
+    color: #212529!important;
+}
+
+/* app title container*/
+div#app_header {
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    font-size: x-large;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Busy Indicator */
+.periscope-busy-ind {
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 0%;
+    align-self: center;
+}
+
+/* header menu*/
+div#header_menu{
+
+}
+
+ul.dropdown-menu {
+    width: max-content;
+}
+
+/* End of Application Header CSS rules */
+
+
+/* Other */
+.help-block {
+    padding: 12px 15px 0 12px;
+}
+
+
+.wrapper {
+    background-color: #ecf0f5 !important;
+}
+
+
+/* --- MODULES --- */
+
+/* Download Button */
+.periscope-download-btn { }
+.periscope-download-choice {
+    display        : flex;
+    justify-content: left;
+    margin-left    : 10%;
+}
+
+/* downloadfile multi dropdown file */
+.dropdown-menu.show {
+    min-width: 100%;
+}
+
+/* LogViewer table */
+table.shiny-table {
+    min-width: 100%;
+}
+
+/* Downloadable Table */
+.periscope-downloadable-table { }
+.periscope-downloadable-table-header > div {
+    float: right;
+}
+
+.periscope-downloadable-table-button {
+    float: left;
+}
+
+/* Downloadable Plot */
+.periscope-downloadable-plot { }
+.periscope-downloadable-plot-button {
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    top: -39px;
+    float: right;
+}
+
+
+/* Links styling */
+/* If we want to use the custom peach (sidebar) or purple (body) link colors we
+   need add the class "text-link" to a UI element containing the link */
+a:not(.nav-link) {
+    color: #007bff!important;
+}
+
+a:hover:not(.nav-link) {
+    color          : #0056B3 !important;
+    text-decoration: underline!important;
+}
+
+a:focus:not(.nav-link) {
+    color: #003875!important;
+}
+/* End of links styling */
+
+/* -------Buttons Styles-------- */
+/* btn-primary button */
+.btn-primary:hover {
+    background-color: #8719a8 !important;
+}
+.btn-primary:focus {
+    background-color: #8719a8 !important;
+}
+
+/* btn-info button */
+.btn-info {
+    color: #1F2D3D!important;
+}
+
+.btn-info:hover {
+    background-color: #6EC8D9 !important;
+    color: #1F2D3D!important;
+}
+.btn-info:focus {
+    background-color: #6EC8D9 !important;
+    color: #1F2D3D!important;
+}
+
+/* Modal related CSS rules */
+/* Modal Title*/
+h2#swal2-title {
+    text-align: left!important;
+    font-weight: bold!important;
+    margin: 0!important;
+    font-size: large!important;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 15px;
+}
+
+button.swal2-close {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #FFFFFE;
+    opacity: .2;
+    padding-top: 15px;
+    padding-right: 15px;
+    box-shadow: none !important;
+}
+
+button.swal2-close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+button.swal2-close:focus {
+    box-shadow: none !important;
+}
+
+div#swal2-html-container {
+    font-size: 14px;
+    text-align: inherit;
+    color: black;
+    padding: 15px;
+}
+/* END of periscope2 basic CSS*/
+
+/* ========================================================================== */
+
+/* --- APP-SPECIFIC CUSTOM CSS ---
