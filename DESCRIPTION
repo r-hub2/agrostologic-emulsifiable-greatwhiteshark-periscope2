@@ -30,8 +30,9 @@ VignetteBuilder: knitr
 Roxygen: list(markdown = TRUE)
 Config/roxygen2/version: 8.0.0
 RoxygenNote: 7.3.3
+KeepSource: no
 NeedsCompilation: no
-Packaged: 2026-08-14 03:04:05 UTC; mohammedali
+Packaged: 2026-08-14 06:21:24 UTC; mohammedali
 Author: Mohammed Ali [aut, cre],
   Constance Brett [ctb],
   Aggregate Genius Inc [spn]
