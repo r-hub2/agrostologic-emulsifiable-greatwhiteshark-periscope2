@@ -2,7 +2,7 @@ Package: periscope2
 Type: Package
 Title: Enterprise Streamlined 'shiny' Application Framework Using
         'bs4Dash'
-Version: 0.4.0.9001
+Version: 0.4.0
 Authors@R: c(
     person("Mohammed", "Ali",      role = c("aut", "cre"), email   = "mohammed@aggregate-genius.com"),
     person("Constance", "Brett",   role = c("ctb")),
@@ -32,7 +32,7 @@ Config/roxygen2/version: 8.0.0
 RoxygenNote: 7.3.3
 KeepSource: no
 NeedsCompilation: no
-Packaged: 2026-08-14 06:21:24 UTC; mohammedali
+Packaged: 2026-08-17 02:04:29 UTC; mohammedali
 Author: Mohammed Ali [aut, cre],
   Constance Brett [ctb],
   Aggregate Genius Inc [spn]
